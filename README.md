@@ -1,4 +1,4 @@
-# 30DaysJs_WorldCountriesData
+# 30DaysJS_WorldCountriesData
 
 <b>Progetto del Giorno 25 di 30 Days of Javascript.</b>
 
