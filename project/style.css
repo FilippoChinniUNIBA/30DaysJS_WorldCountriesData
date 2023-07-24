@@ -94,19 +94,34 @@ button {
 
 #country-name {
     margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #bar-graph {
     margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-/*
 #stat {
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-*/
+
+#name {
+    margin: 0.5vw;
+}
 
 #bar {
     color: transparent;
+    margin: 0.5vw;
     background-color: #eeaf3b;
+}
+
+#number {
+    margin: 0.5vw;
 }

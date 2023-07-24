@@ -2912,12 +2912,14 @@ function displayMostPopulatedCountries() {
 
     for(const elem of top10Population) {
         const countryP = document.createElement("p");
+        countryP.id = "name";
         countryP.textContent = elem.name;
 
         const barP = document.createElement("p");
         creaBarra(barP, top10Population[0].population, elem.population);
 
         const statP = document.createElement("p");
+        statP.id = "number";
         statP.textContent = elem.population;
 
         graphCountry.appendChild(countryP);
@@ -2937,12 +2939,14 @@ function displayMostSpokenLanguages() {
 
     for(const elem of top10Languages) {
         const countryP = document.createElement("p");
+        countryP.id = "name";
         countryP.textContent = elem.lingua;
 
         const barP = document.createElement("p");
         creaBarra(barP, top10Languages[0].count, elem.count);
 
         const statP = document.createElement("p");
+        statP.id = "number";
         statP.textContent = elem.count;
 
         graphCountry.appendChild(countryP);
